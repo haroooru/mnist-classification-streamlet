@@ -1,7 +1,7 @@
 numpy
 matplotlib
-tensorflow
-runipy
+tensorflow==2.15.0
 opencv-python
 streamlit==0.64.0
 streamlit_drawable_canvas==0.4.0
+
