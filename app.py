@@ -49,3 +49,9 @@ if canvas_result.image_data is not None:
         st.success(f"🧠 Predicted Digit: **{predicted_digit}**")
         st.subheader("Confidence Levels")
         st.bar_chart(prediction[0])
+
+import sys
+import streamlit as st
+
+st.write(f"Python version: {sys.version}")
+
